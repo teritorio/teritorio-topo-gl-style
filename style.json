@@ -132,123 +132,21 @@
       "paint": {"fill-pattern": "vineyard16"}
     },
     {
-      "id": "landuse-residential",
+      "id": "landuse",
       "type": "fill",
       "metadata": {"mapbox:group": "1444849388993.3071"},
       "source": "openmaptiles",
       "source-layer": "landuse",
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "residential",
-          "suburb",
-          "neighbourhood",
-          "school",
-          "hospital"
-        ]
-      ],
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": {
           "base": 1,
           "stops": [
-            [12, "hsla(30, 19%, 90%, 0.4)"],
-            [16, "hsla(30, 19%, 90%, 0.2)"]
+            [12, "rgba(223, 165, 136, 0.2)"],
+            [13, "rgba(235, 199, 181, 0.2)"]
           ]
         }
       }
-    },
-    {
-      "id": "landuse-commercial",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": [
-        "all",
-        ["==", "$type", "Polygon"],
-        ["==", "class", "commercial"]
-      ],
-      "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "hsla(0, 60%, 87%, 0.23)"}
-    },
-    {
-      "id": "landuse-industrial",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": [
-        "all",
-        ["==", "$type", "Polygon"],
-        ["in", "class", "industrial", "garages", "dam"]
-      ],
-      "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "hsla(49, 100%, 88%, 0.34)"}
-    },
-    {
-      "id": "landuse-cemetery",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["==", "class", "cemetery"],
-      "paint": {"fill-color": "#e0e4dd"}
-    },
-    {
-      "id": "landuse-railway",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["==", "class", "railway"],
-      "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "hsla(30, 19%, 90%, 0.4)"}
-    },
-    {
-      "id": "landuse-parking",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["all", ["==", "class", "parking"]],
-      "paint": {"fill-color": "hsla(30, 19%, 90%, 0.4)"}
-    },
-    {
-      "id": "landuse-camping",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["all", ["==", "class", "camp_site"]],
-      "paint": {"fill-color": "rgba(233, 251, 206, 1)"}
-    },
-    {
-      "id": "landuse-sports_centre",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": [
-        "all",
-        ["==", "$type", "Polygon"],
-        ["==", "class", "sports_centre"]
-      ],
-      "paint": {"fill-color": "rgba(236, 255, 224, 0.7)"}
-    },
-    {
-      "id": "landuse-pitch_playground",
-      "type": "fill",
-      "metadata": {"mapbox:group": "1444849388993.3071"},
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": [
-        "all",
-        ["==", "$type", "Polygon"],
-        ["in", "class", "pitch", "playground"]
-      ],
-      "paint": {"fill-color": "rgba(207, 242, 190, 0.7)"}
     },
     {
       "id": "water-offset",
