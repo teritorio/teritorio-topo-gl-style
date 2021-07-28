@@ -340,7 +340,7 @@
         ["!=", "class", "ocean"]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "#94c1e1"}
+      "paint": {"fill-color": "hsl(210, 80%, 85%)"}
     },
     {
       "id": "water-intermittent",
