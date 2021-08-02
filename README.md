@@ -1,4 +1,4 @@
-# Teritorio Basic Style
+# Teritorio Topo Style
 
 Derived from [OSM Bright](https://github.com/openmaptiles/osm-bright-gl-style)
 
@@ -16,6 +16,14 @@ It is using the vector tile derived from the schema of [OpenMapTiles](https://gi
         - [Teritorio Bicycle](https://github.com/teritorio/teritorio-bicycle-gl-style) (Network and Facilities)
 
 ## Preview
+
+![](screen-1.jpeg)
+
+![](screen-2.jpeg)
+
+![](screen-3.jpeg)
+
+![](screen-4.jpeg)
 
 ## Edit the Style
 
