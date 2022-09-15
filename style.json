@@ -290,7 +290,7 @@
       ],
       "layout": {
         "text-field": "{ele}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "symbol-placement": "line",
         "text-size": 10,
         "text-ignore-placement": true
@@ -3384,7 +3384,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
         "text-size": {"base": 1.2, "stops": [[12, 10], [15, 14]]},
@@ -3406,7 +3406,7 @@
       "filter": ["all", ["in", "class", "isolated_dwelling"]],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
         "text-size": {"base": 1, "stops": [[14, 9], [15, 14]]},
@@ -3571,7 +3571,7 @@
       "filter": ["==", "class", "village"],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 22]]},
         "visibility": "visible"
@@ -3615,7 +3615,7 @@
       "filter": ["==", "class", "town"],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[10, 14], [15, 24]]},
         "visibility": "visible"
@@ -3635,7 +3635,7 @@
       "filter": ["all", ["!=", "capital", 2], ["==", "class", "city"]],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 24]]},
         "visibility": "visible"
@@ -3658,7 +3658,7 @@
         "icon-size": 0.8,
         "text-anchor": "left",
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 8,
         "text-offset": [0.4, 0],
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 24]]},
@@ -3679,7 +3679,7 @@
       "filter": ["in", "class", "state"],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
         "text-size": {"base": 1.2, "stops": [[12, 10], [15, 14]]},
@@ -3733,7 +3733,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[3, 11], [7, 17]]},
         "text-transform": "uppercase",
@@ -3760,7 +3760,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[2, 11], [5, 17]]},
         "text-transform": "uppercase",
@@ -3787,7 +3787,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[1, 11], [4, 17]]},
         "text-transform": "uppercase",
@@ -3810,7 +3810,7 @@
       "filter": ["==", "class", "continent"],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Noto Sans Bold"],
+        "text-font": ["Noto Sans Regular"],
         "text-max-width": 6.25,
         "text-size": 14,
         "text-transform": "uppercase",
